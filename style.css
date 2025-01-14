@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgb(219, 217, 218);
+}
+
+/* Line 12 */
+
+.top-nav{
+    height: 60px;
+    background: #131921;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+/* .......Backround image added next code ........... */
+    /* position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5; */
+
+}
+
+/* Line 13 */
+
+.nav-logo{
+    width: 110px;
+}
+
+/* Image */
+
+.nav-logo img{
+    width: 55%;
+}
+
+.border{
+    border: 1px solid transparent;
+    padding: 1px 6px;
+}
+
+.border:hover{
+    border: 1px solid #fff;
+}
+
+/* Line 21 Location Box */
+
+.location-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* Line 20 */
+
+.location-first{
+    margin-left: 14px;
+    color: #ccc;
+    font-size: 0.9vw;
+}
+
+/* Line 23 */
+
+.location-second{
+    font-size: 1.2vw;
+    color: #ccc;
+    font-weight: 700;
+}
+
+.location-icon{
+    font-size: 1.2vw;
+    color: #ccc;
+    margin-right: 3px;
+}
+
+
+/* ............Search Box........... */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 600px;
+    border: 0;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 6px;
+}
+
+.nav-search:hover{
+    border: 2px solid rgb(241, 168, 33);
+}
+
+.category{
+    width: 52px;
+    text-align: center;
+    font-size: 1vw;
+    border: 0;
+    outline: none;
+    background-color: #d69292;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+
+.search-input{
+    width: 100%;
+    border: 0;
+    outline: none;
+    font-size: 1.2vw;
+    padding-left: 5px;
+}
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 1.5vw;
+    background-color: yellow;
+     border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+
+/* .....................Language Box...................... */
+
+.nav-language{
+    width: auto;
+}
+
+.lang-select{
+    display: flex;
+    align-items: center;
+    background: black;
+    border: 0;
+    color: #fff;
+    width: 42px;
+    text-align: center;
+    font-weight: 660;
+    font-size: 1vw;
+}
+
+.lang-select img{
+    width: 20px;
+}
+
+/* ...........................Sign in Box........................ */
+
+
+.first-sign{
+    color: #ccc;
+    font-size: 0.9vw;
+}
+
+.second-sign{
+    color: #ccc;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+/* ...............................Cart Box........................... */
+
+.nav-cart{
+    color: #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.nav-cart i{
+    color: #ccc;
+    font-size: 2.2vw;
+    margin-right: 3px;
+}
+
+.nav-cart p{
+    color: #ccc;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+/* .......................Bottom navbar.................  */
+
+
+
+.bottom-nav{
+    background-color: rgb(78, 74, 74);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 20px;
+    width: 100%;
+/* ........Background image add next code added............ */
+    /* position: relative;
+    top: 60px; */
+
+}
+
+.bnav-left{
+    display: flex;
+    align-items: center;
+}
+.options{
+    display: flex;
+
+}
+
+.bnav-left .all{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.bnav-left .all i{
+   font-size: 1.1vw;
+   margin-right: 5px;
+
+}
+
+.bnav-left .options a{
+    text-decoration: none;
+    font-size: 1.1vw;
+    padding: 8px 10px;
+}
+
+/* ................................Hero Section.............................. */
+
+.Hero-section{
+    background-color: rgb(221, 169, 73);
+    height: 300px;
+    background-size: cover;
+    margin-top: o;
+    width: 100%;
+} 
+
+
+
+.Background-text h5{
+    font-size: 1.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.Background-text p{
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* ....................................Product section(or) card....................... */
+
+.main{
+    position: relative;
+    top: -100px;
+}
+
+.card-product-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-product{
+    background-color: rgb(230, 158, 158);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.1)
+    5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-product h5{
+   margin: 0;
+   padding: 10px;
+
+}
+
+.card-product-nested-card{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+    
+}
+
+.card-nested{
+
+    
+}
+
+.card-nested p{
+  margin: 5px;
+  font-size: 1vw;
+  padding: 10px;
+}
+
+.card-nested img{
+   width: 128px;
+   height: 102px;
+   object-fit: cover;
+
+}
+
+h5{
+    margin-bottom: 20px;
+}
+
+.card-product-btn{
+    
+    font-size: 14px;
+    align-self: self-start;
+    margin: 7px 10px;
+    padding-left: 0;
+    background-color: transparent;
+    border: none;
+    color: green;
+    
+}
+
+
+/* .....................................signin section............................... */
+
+
+.signin-section{
+    width: 100%;
+    background: #fff;
+    margin: 20px 0;
+    padding: 30px 0;
+}
+
+.signin-section .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 30px 0;
+
+
+}
+
+.signin-section .content p{
+    font-size: 1.8vw;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.signin-section .content a{
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(0, 217, 255);
+    
+
+}
+
+
+.signin-section .content button{
+    font-size: 1vw;
+    font-weight: 600;
+    padding: 12px 40px;
+    background: yellow;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    width: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ......................................footer section............................... */
+
+
+ .footer{
+    width: 100%;
+    background: black;
+    color: #fff;
+ }
+
+ .footer .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+    flex-wrap: wrap;
+
+ }
+
+.footer .row .col{
+    padding: 10px;
+
+}
+
+.footer .row .col .u1 li{
+    list-style: none;
+}
+
+.col-header{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 1.2vw;
+}
+/* ....................................Bottom footer.............................. */
+
+.bottom-footer{
+   width: 100%;
+   height: 100px;
+   margin: 1px auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: black;
+}
+
+.footer-icon img{
+    width: 50px;
+}
+
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin: 30px 0;
+    
+    
+
+}
+
+
+.footer-icon button{
+    padding: 8px 25px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #fff;
+}
+
+
+.footer-icon button img{
+    width: 10px;
+    height: 10px;
+}
